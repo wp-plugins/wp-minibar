@@ -3,7 +3,7 @@
 Plugin Name: WP MiniBar
 Plugin URI: http://projects.ciarang.com/p/wp-minibar
 Description: Minimise the WordPress toolbar, in the front-end only.
-Version: 1.0
+Version: 1.0.1
 Author: Ciaran Gultnieks
 Author URI: http://ciarang.com
 */
