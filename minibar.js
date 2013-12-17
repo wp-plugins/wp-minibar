@@ -7,16 +7,16 @@ jQuery(document).ready(function($) {
 
 		if (! $('body').is('.wp-admin')) { // only do this for the front end, not admin
 			if (cssTop >= 0) {
-				$("#wpadminbar").animate({"top": "-=28px"}, "slow");
+				$("#wpadminbar").animate({"top": "-=32px"}, "slow");
 				$("#adminbar_tab").text("Show");
 
 				$("html").css("cssText", "margin-top: 0px !important;");
 			}
 			else {
-				$("#wpadminbar").animate({"top": "+=28px"}, "slow");
+				$("#wpadminbar").animate({"top": "+=32px"}, "slow");
 				$("#adminbar_tab").text("Hide");
 
-				$("html").css("cssText", "margin-top: 28px !important;");
+				$("html").css("cssText", "margin-top: 32px !important;");
 			}
 		}
 	});

@@ -3,7 +3,7 @@
 Plugin Name: WP MiniBar
 Plugin URI: http://projects.ciarang.com/p/wp-minibar
 Description: Minimise the WordPress toolbar, in the front-end only.
-Version: 1.0.2
+Version: 1.0.3
 Author: Ciaran Gultnieks
 Author URI: http://ciarang.com
 */
@@ -40,7 +40,7 @@ function wpminibar_init()
 
 function wpminibar_css()
 {
-	echo '<style type="text/css">#wpadminbar {top: -28px;} html {margin-top: 0px !important;} div#adminbar_tab {clear:both;text-align:center;background:transparent;width:38px;position:relative;top:0px;color:#000;font-size:12px;font-style:italic;background:#aaa;opacity:0.2;padding:4px;cursor:pointer;} div#adminbar_tab:hover {opacity:0.7;} </style>';
+	echo '<style type="text/css">#wpadminbar {top: -32px;} html {margin-top: 0px !important;} div#adminbar_tab {clear:both;text-align:center;background:transparent;width:38px;position:relative;top:0px;color:#000;font-size:12px;font-style:italic;background:#aaa;opacity:0.2;padding:4px;cursor:pointer;} div#adminbar_tab:hover {opacity:0.7;} </style>';
 }
 
 
