@@ -1,10 +1,9 @@
 === WP MiniBar ===
-Contributors: CiaranG,dgwyer
-Donate link: http://projects.ciarang.com/p/wp-minibar/page/Donate/
+Contributors: CiaranG
 Tags: admin bar, toolbar, minimise, hide
 Requires at least: 3.4
-Tested up to: 4.0.1
-Stable tag: 1.0.4
+Tested up to: 4.2.2
+Stable tag: 1.0.5
 
 Hide/show the WordPress toolbar in the front-end.
 
@@ -27,6 +26,10 @@ this plugin instead of 'Admin Bar Minimiser' is that this works with sites
 that can use SSL, and that one doesn't.
 
 == Changelog ==
+
+*1.0.5*
+
+* Just project URIs and compatibility flags changed again.
 
 *1.0.4*
 
